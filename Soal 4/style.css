@@ -1,0 +1,49 @@
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: sans-serif;
+        }
+        .canvas {
+            width: 700px;
+            height: 400px;
+            border: 3px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+        .timer {
+            font-size: 4rem;
+        }
+        .seconds {
+            color: green;
+        }
+        .milliseconds {
+            color: red;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+        .start {
+            background-color: green;
+        }
+        .stop {
+            background-color: gold;
+            color: black;
+        }
+        .reset {
+            background-color: red;
+        }

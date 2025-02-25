@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.inputan {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     margin-bottom: 20px;
+}
+
+canvas {
+    background-color: white;
+}
+
+

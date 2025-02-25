@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 200vh;
+}
+#canvas {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+}
+table {
+    width: 700px;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #333;
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: #ddd;
+}
+.green {
+    background-color: #c8e6c9;
+}
